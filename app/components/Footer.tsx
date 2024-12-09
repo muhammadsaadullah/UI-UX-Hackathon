@@ -97,9 +97,9 @@ export default function Footer(){
                     <h1 className="font-roboto font-bold text-xl text-white">Recent Post</h1>
                     <div className="flex flex-col gap-3">
                         {
-                            details.map((info, id) => {
+                            details.map((info, index) => {
                                 return(
-                                    <div className="flex" key={id}>
+                                    <div className="flex" key={index}>
                                         <Component73 
                                             text={info.text}
                                             date={info.date}
