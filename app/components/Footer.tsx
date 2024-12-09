@@ -99,7 +99,7 @@ export default function Footer(){
                         {
                             details.map((info) => {
                                 return(
-                                    <div className="">
+                                    <div className="flex">
                                         <Component73 
                                             text={info.text}
                                             date={info.date}
