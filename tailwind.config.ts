@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         inter: ["var(--font-inter)", "sans-serif"], // Map Inter
         roboto: ["var(--font-roboto)", "sans-serif"], // Map Roboto
+        greatvibes: ["var(--font-great-vibes)", "cursive"], // Map Great Vibes
       },
       colors: {
         // Brand Colors

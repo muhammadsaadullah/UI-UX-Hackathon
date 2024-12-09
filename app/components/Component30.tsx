@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 export default function Component30 (props:any){
     return(
-            <div className="flex flex-row h-full justify-center items-center gap-1">
+            <div className="flex flex-row h-full justify-center items-center gap-1 ">
                 <h1 className="font-roboto size-6 font-bold text-white justify-start w-1/6">Food<span className="text-primary-orange3">tuck</span></h1>
                 <div className="flex flex-row w-2/5 gap-5">
                     <div><Link href="" className="font-inter font-bold text-primary-orange3 size-4 leading-6">Home</Link></div>

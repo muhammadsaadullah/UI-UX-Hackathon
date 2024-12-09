@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Roboto } from "next/font/google";
+import { Inter, Roboto, Great_Vibes } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -10,6 +10,13 @@ const roboto = Roboto({
   subsets: ["latin"], 
   weight: ["400", "700"], // Specify weights you need (Regular and Bold)
   variable: "--font-roboto", 
+});
+
+
+const greatVibes = Great_Vibes({
+  subsets: ["latin"], 
+  weight: ["400"], // Great Vibes typically has only one weight (Regular)
+  variable: "--font-great-vibes", 
 });
 
 export const metadata: Metadata = {
@@ -30,7 +37,7 @@ export default function RootLayout({
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
           />
       </head>
-      <body className={`${inter.variable} ${roboto.variable} antialiased`}>
+      <body className={`${inter.variable} ${roboto.variable} ${greatVibes.variable} antialiased`}>
         {children}
       </body>
     </html>

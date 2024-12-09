@@ -1,9 +1,9 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer";
 
-export default function Error() {
-    const title = "404 Error";
-    const location  = "Error"
+export default function Shop() {
+    const title = "Our Shop"
+    const location  = "Shop"
 
     return (
         <div>
