@@ -9,7 +9,7 @@ export default function Testimonials(){
             <div className="w-[75%] h-[375px] mt-14 bg-white drop-shadow-[0_0_80px_rgba(205,205,205,0.25)] ">
                 <Image src="/unsplash_Ioq6qEibtbU.png" alt="" width={396} height={500}  className="absolute -mr-[114px] -top-14 right-[-20px] scale-90 transform -rotate-[9deg]"/>
             </div>
-            <div className="flex flex-col w-[59%] fixed gap-5 justify-center items-center ">
+            <div className="flex flex-col w-[59%] gap-5 justify-center items-center ">
                 <div className=" flex  h-32 w-32 rounded-full border border-black">
                     <Image src="/person1.jpeg" alt="" width={133} height={134} className="rounded-full"/>   
                 </div>
