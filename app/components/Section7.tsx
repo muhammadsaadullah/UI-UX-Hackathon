@@ -37,7 +37,7 @@ export default function Section7() {
                     {
                         CardData.map((data, index) => {
                             return(
-                                <div className="w-1/4">
+                                <div className="w-1/4" key={index}>
                                     <Cards 
                                         key={index}
                                         image={data.image}
