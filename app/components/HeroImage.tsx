@@ -4,7 +4,7 @@ export default function HeroImage() {
   return (    
     <div>
       {/* Circular Layout Container */}
-      <div className="relative w-[80vw] max-w-[850px] aspect-square">
+      <div className="relative w-[80vw] max-w-[730px] aspect-square">
          
         {/* Background Leaf (Responsive Sizing) */}
         <div className="absolute inset-0 translate-x-[65%] translate-y-[51%] w-[80%] h-[49%] ">
@@ -39,8 +39,8 @@ export default function HeroImage() {
           {[
             { src: '/side1.png',      alt: 'Small Dish 1', h: 80, w: 76, offsetX: 0,      offsetY: 0,                                  x: -50, y: -50, layout: "fill"  },
             { src: '/side2.png',      alt: 'Small Dish 2', h: 60, w: 60, offsetX: 0,      offsetY: 2.5,   width: 60,    height: 60, x: -50, y: -50, layout: "intrinsic"  },
-            { src: '/side3.png',      alt: 'Small Dish 3', h: 40, w: 40, offsetX: 1,      offsetY: 2,     width: 80,    height: 80, x: -50, y: -50, layout: "intrinsic"  },
-            { src: '/leavesside.png', alt: 'Small Dish 4', h: 35, w: 25, offsetX: -0.4,    offsetY: -3,  width: 80,    height: 80, x: -50, y: -50, layout: "intrinsic"  },
+            { src: '/side3.png',      alt: 'Small Dish 3', h: 45, w: 45, offsetX: 1,      offsetY: 2,     width: 80,    height: 80, x: -50, y: -50, layout: "intrinsic"  },
+            { src: '/leavesside.png', alt: 'Small Dish 4', h: 35, w: 25, offsetX: -0.5,    offsetY: -3,  width: 80,    height: 80, x: -50, y: -50, layout: "intrinsic"  },
           ].map((icon, index) => {
             const totalIcons = 13; // Total number of icons
             const angle = (360 / totalIcons) * -index - 140; // Starts at the 12 o'clock position

@@ -1,5 +1,5 @@
 import Component30 from "./Component30";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Header(props:any){
   return (
